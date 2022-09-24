@@ -28,3 +28,4 @@ function logSubmit(event) {
 
 
 
+    document.forms["wpcf7-form resetting"].submit();
