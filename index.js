@@ -16,23 +16,15 @@ function myFunction() {
 
   // Implementing dark and light mode toggler on site
 
-  body{
-    padding:0% 3% 10% 3%;
-    text-align:center;
+function logSubmit(event) {
+      
+      log.textContent = `Form Submitted! Time stamp: ${event.timeStamp}`;
+      event.preventDefault();
     }
-    h1{
-    color: #32a852;
-    margin-top:30px;
-    }
- 
-    button{
-        cursor: pointer;
-        border: 1px solid #555;
-        text-align: center;
-        padding: 5px;
-        margin-left: 8px;
-    }
-    .dark{
-        background-color: #222;
-        color: #e6e6e6;
-    }
+    
+    const form = document.getElementById('form');
+    const log = document.getElementById('log');
+    form.addEventListener('submit', logSubmit);
+
+
+
