@@ -1,0 +1,25 @@
+{
+    "cSpell.words": [
+        "cfasync",
+        "Doveowuor",
+        "newtracker",
+        "noopfn",
+        "Oddi",
+        "Optout",
+        "wpemoji"
+    ],
+    "cSpell.enableFiletypes": [
+        "django-html",
+        "django-txt",
+        "dockercompose",
+        "dotenv",
+        "gemfile",
+        "git-rebase",
+        "http",
+        "jinja-html",
+        "jinja-json",
+        "jinja-php",
+        "jinja-rb"
+    ],
+    "cSpell.language": "en,lorem"
+}
