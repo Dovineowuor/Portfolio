@@ -27,7 +27,7 @@
 					preload.find('.box-1').velocity({
 						translateY: '-100%'
 					}, {
-						duration: 1000,
+						duration: 100,
 						easing: [0.7,0,0.3,1]
 					});
 					preload.find('.box-2').velocity({
